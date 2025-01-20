@@ -11,11 +11,13 @@
   "description": "",
   "dependencies": {
     "@apollo/server": "^4.11.3",
+    "@prisma/client": "^6.2.1",
     "graphql": "^16.10.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.7",
     "nodemon": "^3.1.9",
+    "prisma": "^6.2.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.7.3"
   }
