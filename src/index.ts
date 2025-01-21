@@ -4,6 +4,7 @@ import { typeDefs } from "./schema";
 import { resolvers } from "./resolvers";
 import { Prisma, PrismaClient } from "@prisma/client";
 import { DefaultArgs } from "@prisma/client/runtime/library";
+import { jwtHelper } from "./utils/jwtHelper";
 
 export const prisma = new PrismaClient();
 
